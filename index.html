@@ -3,13 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redesign Logo</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Gambar Sketsa</title>
+    <style>
+        .sketsa {
+            width: 200px; /* Atur lebar gambar */
+            height: 200px; /* Atur tinggi gambar */
+            border: 1px solid black; /* Border untuk melihat area gambar */
+            position: relative;
+        }
+        .lengan {
+            width: 20px;
+            height: 60px;
+            background: black;
+            position: absolute;
+            top: 40px;
+            left: 50px;
+            transform: rotate(30deg);
+        }
+        .badan {
+            width: 40px;
+            height: 100px;
+            background: black;
+            position: absolute;
+            top: 40px;
+            left: 70px;
+        }
+        .objek {
+            width: 40px;
+            height: 60px;
+            background: black;
+            position: absolute;
+            top: 90px;
+            left: 80px;
+        }
+    </style>
 </head>
 <body>
-    <div class="logo">
-        <div class="icon"></div>
-        <div class="text">Nama Logo</div>
-    </div>
+
+<div class="sketsa">
+    <div class="lengan"></div>
+    <div class="badan"></div>
+    <div class="objek"></div>
+</div>
+
 </body>
 </html>
